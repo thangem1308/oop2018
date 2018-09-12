@@ -1,9 +1,11 @@
 package week1;
-sfsdjgksda
 public class Student {
-
+        private String name,id,group,email;
     // TODO: khai báo các thuộc tính cho Student
-
+        public String getName(){ return name; }  public void setName() { this.name=name; }
+        public String getId(){ return id; }  public void setId(){ this.id=id; }
+        public String getGroup() { return group; }   public void setGroup(){ this.group=group;}
+        public String getEmail(){ return email;}    public  void setEmail(){ this.email=email;}
     // TODO: khai báo các phương thức getter, setter cho Student
 
     /**
@@ -18,7 +20,7 @@ public class Student {
      * @param n
      * @param sid
      * @param em
-     */
+     * /
     Student(String n, String sid, String em) {
         // TODO:
     }
@@ -30,9 +32,8 @@ public class Student {
     Student(Student s) {
         // TODO:
     }
-xxxxtfrdjg
     String getInfo() {
-        // TODO:
-        return null; // xóa dòng này sau khi cài đặt
+        // TODO:String fullInfo=name + id + group + email;
+        return fullInfo; // xóa dòng này sau khi cài đặt
     }
 }
