@@ -10,25 +10,21 @@ public class StudentManagement {
         return false; // xóa dòng này sau khi cài đặt
     }
 
-    void studentsByGroup() {
+    /*void studentsByGroup() {
         // TODO:
-
     }
 
     void removeStudent(String id) {
         // TODO:
-    }
-    int ktTonTai(string S , string s[100]){
-
-    }
-
+    }*/
     public static void main(String[] args) {
         // TODO:
-        //Student s1=new Student();
-        //Student s2=new Student();
-        //Student sv=new Student("Thang","17020704","17020704@vnu.edu.vn");
-        //sv.getInfo();
-        Student dsStudent[100];
+        Student s1=new Student();
+        Student s2=new Student();
+        Student sv=new Student(Than,17020704,@vnu.edu.vn);
+        sv.getInfo();
+        //Student dsStudent[100];
+
 
     }
 }
