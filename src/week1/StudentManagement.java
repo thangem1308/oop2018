@@ -19,5 +19,9 @@ public class StudentManagement {
 
     public static void main(String[] args) {
         // TODO:
+        Student s1=new Student();
+        Student s2=new Student();
+        Student sv=new Student(Thang,17020704,17020704@vnu.edu.vn);
+
     }
 }

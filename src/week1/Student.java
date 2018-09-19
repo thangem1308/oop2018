@@ -13,8 +13,12 @@ public class Student {
      */
     Student() {
         // TODO:
+        name="Student";
+        id="000";
+        group="INT22041";
+        email="uet@vnu.edu.vn";
     }
-áhdkfsajhfds
+
     /**
      * Constructor 2
      * @param n
@@ -23,6 +27,10 @@ public class Student {
      * /
     Student(String n, String sid, String em) {
         // TODO:
+        this.name = n;
+        this.id = sid;
+        this.email=em;
+        this.group="INT22041";
     }
 
     /**
@@ -31,9 +39,14 @@ public class Student {
      */
     Student(Student s) {
         // TODO:
+        this.name=s.getName();
+        this.id=s.getId();
+        this.email=s.getEmail();
+        this.group=s.getGroup();
     }
     String getInfo() {
-        // TODO:String fullInfo=name + id + group + email;
+        // TODO:
+        String fullInfo=name + id + group + email;
         return fullInfo; // xóa dòng này sau khi cài đặt
     }
 }
