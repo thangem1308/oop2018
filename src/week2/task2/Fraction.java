@@ -12,7 +12,7 @@ public class Fraction {
 
     public Fraction add(Fraction other) {
         // TODO: Phương thức cộng hai phân số (this và other), trả về đối tượng Fraction mới
-        Fraction addResult;
+        Fraction addResult = new Fraction(1,1);
         addResult.numerator=this.numerator*other.denominator + this.denominator*other.numerator;
         addResult.denominator=other.denominator*this.denominator;
         return addResult;
@@ -21,7 +21,7 @@ public class Fraction {
 
     public Fraction subtract(Fraction other) {
         // TODO: Phương thức trừ hai phân số (this và other), trả về đối tượng Fraction mới
-        Fraction subtractResult;
+        Fraction subtractResult= new Fraction(1,1);
         subtractResult.numerator=this.numerator*other.denominator - this.denominator*other.numerator;
         subtractResult.denominator=other.denominator*this.denominator;
         return subtractResult;
@@ -30,7 +30,7 @@ public class Fraction {
 
     public Fraction multiply(Fraction other) {
         // TODO: Phương thức nhân hai phân số (this và other), trả về đối tượng Fraction mới
-        Fraction multiplyResult;
+        Fraction multiplyResult= new Fraction(1,1);
         multiplyResult.numerator=this.numerator*other.numerator;
         multiplyResult.denominator=this.denominator*other.denominator;
         return multiplyResult;
@@ -39,7 +39,7 @@ public class Fraction {
 
     public Fraction divide(Fraction other) {
         // TODO: Phương thức chia hai phân số (this và other), trả về đối tượng Fraction mới
-        Fraction divideResult;
+        Fraction divideResult= new Fraction(1,1);
         divideResult.numerator=this.numerator*other.denominator;
         divideResult.denominator=this.denominator*other.numerator;
         return divideResult;
