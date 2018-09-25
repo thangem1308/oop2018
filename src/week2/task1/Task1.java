@@ -17,7 +17,7 @@ public class Task1 {
         int F0=0,F1=1,n0=1;
         if (n==0) return 0;
         if (n==1) return 1;
-        while (n0<=n){
+        while (n0<n){
             if (F0>F1) F1=F0+F1;
             else F0=F1+F0;
             n0=n0+1;
