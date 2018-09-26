@@ -14,7 +14,7 @@ class theCat {
     }
     public void meow(){
         // TODO: Tiếng mèo kêu
-        System.out.printf("Meow");
+        System.out.print("Meow");
     }
     public void sleep(){
         //TODO: con mèo đã ngủ
@@ -28,9 +28,9 @@ class theDog{
     public String getName(){return name;}     public void setName(String name){this.name=name;}
     public int getAge(){return age;}     public void setName(int age){this.age=age;}
     public String getSex(){return sex;}     public void setSex(String sex){this.sex=sex;}
-    public void an{System.out.printf("Dang an");}
-    public void ngu{System.out.printf("Dang ngu");}
-    public void choi{System.out.printf("Dang choi");}
+    public void an{System.out.print("Dang an");}
+    public void ngu{System.out.print("Dang ngu");}
+    public void choi{System.out.print("Dang choi");}
 }
 class theMouse{
     private String name;
@@ -39,8 +39,8 @@ class theMouse{
     public String getName(){return name;}     public void setName(String name){this.name=name;}
     public int getAge(){return age;}     public void setName(int age){this.age=age;}
     public String getSex(){return sex;}     public void setSex(String sex){this.sex=sex;}
-    public void an{System.out.printf("Dang an");}
-    public void ngu{System.out.printf("Dang ngu");}
-    public void choi{System.out.printf("Dang choi");}
+    public void an{System.out.print("Dang an");}
+    public void ngu{System.out.print("Dang ngu");}
+    public void choi{System.out.print("Dang choi");}
 }
 //TODO: khai báo 3 class tương ứng với 3 đối tượng thực tế ở dưới
