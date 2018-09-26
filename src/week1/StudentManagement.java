@@ -1,4 +1,4 @@
-package week1;
+/*package week1;
 
 public class StudentManagement {
 
@@ -16,7 +16,7 @@ public class StudentManagement {
 
     void removeStudent(String id) {
         // TODO:
-    }*/
+    }
     public static void main(String[] args) {
         // TODO:
         Student s1=new Student();
@@ -28,3 +28,4 @@ public class StudentManagement {
 
     }
 }
+*/
