@@ -45,9 +45,11 @@ public class Fraction {
         return divideResult;
         //return null;
     }
-    public boolean equals(Fraction other){
-        // TODO: So sánh hai phân số (this và other), trả về kiểu boolean
-        if (this.numerator*other.denominator-this.denominator*other.numerator==0) return true;
+    public boolean equals(Object obj){
+        if (obj instanceof  Fraction) {
+            Fraction other=(Fraction) obj;
+            if (this.numerator*other.denominator-this.denominator*other.numerator==0) return true;
+        }
         return false;
     }
 }
