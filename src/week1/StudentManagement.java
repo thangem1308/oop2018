@@ -21,7 +21,7 @@ public class StudentManagement {
         // TODO:
         Student s1=new Student();
         Student s2=new Student();
-        Student sv=new Student(Than,17020704,@vnu.edu.vn);
+        Student sv=new Student("Than,17020704,@vnu.edu.vn);
         sv.getInfo();
         //Student dsStudent[100];
 
