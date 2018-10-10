@@ -1,5 +1,10 @@
 package week4.task2;
 
+/**
+ * tạo class Square là dẫn xuất của rectangle
+ * thuộc tính side
+ * phương thức kế thừa toString
+ */
 public class Square extends Rectangle {
     private double side;
 
@@ -10,6 +15,10 @@ public class Square extends Rectangle {
     public void setSide(double side){this.side=side;}
     public void setWidth(double side){}
     public void setLength(double side){}
+
+    /**
+     * @return thông tin Square
+     */
     public String toString(){
         String s;
         s=super.toString()+","+side;

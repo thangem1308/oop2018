@@ -23,7 +23,11 @@ public class Shape {
         public void setColor(String color) {this.color=color;}
         //public boolean isFilled(){}
         public void setFilled(boolean filled){ this.filled=filled; }
-        public String toString(){
+
+    /**
+     * @return thông tin của shape
+     */
+    public String toString(){
             String s;
             s=color+","+filled;
             return s;
