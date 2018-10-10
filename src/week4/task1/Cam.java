@@ -7,5 +7,17 @@ package week4.task1;
  * các thuộc tính có khai báo getter,setter.
  */
 public class Cam extends HoaQua {
+     protected int NSX;
+     protected String xuatxu;
+     public void setNSX(int nsx){NSX=nsx;}
+     public int getNSX(){return NSX;}
+     public void setXuatxu(String xuatxu){this.xuatxu=xuatxu;}
+     public String getXuatxu(){return xuatxu;}
+     public void ttnsx(){
+         System.out.println("ngay sx la :" +this.getNSX());
+     }
+     public void ttxx(){
+         System.out.println(" xx la :" +this.getXuatxu());
+     }
 
 }

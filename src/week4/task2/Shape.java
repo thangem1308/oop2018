@@ -6,9 +6,12 @@ package week4.task2;
  * Phương thức : shape,getColor,setColor,isFilled,setFilled,toString
  */
 public class Shape {
-        protected String color="red";
-        protected boolean filled=true;
-        public  Shape() {}
+        protected String color;
+        protected boolean filled;
+        public  Shape() {
+            color="red";
+            filled=true;
+        }
 
     /**
      * Shape khởi tạo các thuộc tính

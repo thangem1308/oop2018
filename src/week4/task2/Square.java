@@ -12,9 +12,9 @@ public class Square extends Rectangle {
     public Square(double side){this.side=side;}
     public Square(double side,String color,boolean filled){this.side=side;this.color=color;this.filled=filled;}
     public double getSide(){return side;}
-    public void setSide(double side){this.side=side;}
-    public void setWidth(double side){}
-    public void setLength(double side){}
+    public void setSide(double side){width=side;length=side;}
+    public void setWidth(double side){setSide(side);}
+    public void setLength(double side){setSide(side);}
 
     /**
      * @return thông tin Square
