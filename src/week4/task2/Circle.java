@@ -5,7 +5,7 @@ package week4.task2;
  * @param //radius là bán kính của circle
  */
 public class Circle extends Shape {
-    private double radius; private double PI=3.14;
+    private double radius; private final double PI=3.14;
 
     public Circle() {}
     public Circle(double radius) {this.radius=radius;}
