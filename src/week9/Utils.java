@@ -24,6 +24,9 @@ public class Utils {
         BufferedWriter bfwrite = new BufferedWriter(write);
         bfwrite.write(data);
         bfwrite.newLine();
+        bfwrite.close();
+        write.close();
+        file.close();
     }
 
     public static void writeContentToFile2(String path) throws IOException{
@@ -34,6 +37,9 @@ public class Utils {
         BufferedWriter bfwrite = new BufferedWriter(write);
         bfwrite.newLine();
         bfwrite.write(data);
+        bfwrite.close();
+        write.close();
+        file.close();
     }
 
     public static File findFileByName(String folderPath, String fileName){
@@ -48,11 +54,10 @@ public class Utils {
             return null;
         }
     }
-
     public static void main (String[] args) throws IOException {
-        File file = findFileByName("C:\\Users\\Nguyễn Thắng Em","readFile.txt");
-        //writeContentToFile("C:\Users\Nguyễn Thắng Em\\writeFile.txt");
-        String data = readContentFromFile("C:\\Users\\Nguyễn Thắng Em\\readFile.txt");
-        System.out.println(data);
+        //File file = findFileByName("C:\\Users\\Nguyễn Thắng Em","readFile.txt");
+        writeContentToFile1("C:\\Users\\Nguyễn Thắng Em\\writeFile.txt");
+        //String data = readContentFromFile("C:\\Users\\Nguyễn Thắng Em\\readFile.txt");
+        //System.out.println(data);
     }
 }
