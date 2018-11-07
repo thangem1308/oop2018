@@ -28,6 +28,7 @@ public class Utils {
         write.close();
         file.close();
     }
+    //hádgajHDL
 
     public static void writeContentToFile2(String path) throws IOException{
         Scanner ip = new Scanner(System.in);
