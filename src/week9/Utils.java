@@ -32,13 +32,11 @@ public class Utils {
     public static void writeContentToFile2(String path) throws IOException{
         Scanner ip = new Scanner(System.in);
         String data = ip.nextLine();
-        FileOutputStream file = new FileOutputStream(path);
-        OutputStreamWriter write = new OutputStreamWriter(file);
-        BufferedWriter bfwrite = new BufferedWriter(write);
+        FileWriter file = new FileWriter(path,true);
+        BufferedWriter bfwrite = new BufferedWriter(file);
         bfwrite.newLine();
         bfwrite.write(data);
         bfwrite.close();
-        write.close();
         file.close();
     }
 
@@ -56,7 +54,7 @@ public class Utils {
     }
     public static void main (String[] args) throws IOException {
         //File file = findFileByName("C:\\Users\\Nguyễn Thắng Em","readFile.txt");
-        writeContentToFile1("C:\\Users\\Nguyễn Thắng Em\\writeFile.txt");
+        writeContentToFile2("C:\\Users\\Nguyễn Thắng Em\\writeFile.txt");
         //String data = readContentFromFile("C:\\Users\\Nguyễn Thắng Em\\readFile.txt");
         //System.out.println(data);
     }
