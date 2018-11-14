@@ -1,8 +1,6 @@
 package week9;
-
 import java.io.*;
 import java.util.Scanner;
-
 public class Utils {
     public static String readContentFromFile(String path) throws IOException {
         String data = new String() ;
@@ -15,7 +13,6 @@ public class Utils {
         }
         return data;
     }
-
     public static void writeContentToFile1(String path) throws IOException{
         Scanner ip = new Scanner(System.in);
         String data = ip.nextLine();
@@ -28,8 +25,6 @@ public class Utils {
         write.close();
         file.close();
     }
-    //hádgajHDL
-
     public static void writeContentToFile2(String path) throws IOException{
         Scanner ip = new Scanner(System.in);
         String data = ip.nextLine();
@@ -40,7 +35,6 @@ public class Utils {
         bfwrite.close();
         file.close();
     }
-
     public static File findFileByName(String folderPath, String fileName){
         String path = folderPath+"\\"+fileName;
         File file = new File(path);
